@@ -6,3 +6,17 @@
 body {
     background-color: rgb(121, 76, 17);
 }
+
+header,
+footer {
+    background-color: rgb(51, 95, 47);
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+}
