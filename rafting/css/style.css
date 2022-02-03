@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mochiy Pop P One';
+
+}
+
+body {
+    background-color: rgb(58, 122, 106);
+    font-size: 14px;
+}
+
+header,
+footer {
+    background-color: rgb(146, 99, 38);
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(24, 24, 151);
+}
+
+h2,
+p,
+figcaption {
+    color: rgb(225, 240, 255);
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 960px;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.socialmedia {
+    float: right;
+    padding: 0;
+}
