@@ -7,25 +7,46 @@
 
 body {
     background-color: rgb(58, 122, 106);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header,
 footer {
     background-color: rgb(146, 99, 38);
-    align-items: center;
-    display: grid;
-    justify-content: center;
+}
+
+main {
+    margin:  1rem;
+}
+
+footer {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 h1 {
     color: rgb(24, 24, 151);
+    align-items: center;
+    display: inline;
+}
+
+nav .list {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 10rem 10rem 10rem;
+    justify-content: center;
 }
 
 h2,
 p,
 figcaption {
     color: rgb(225, 240, 255);
+}
+
+
+/* Class Selectors */
+
+.logo {
+    margin: 1rem;
 }
 
 .page {
@@ -36,7 +57,15 @@ figcaption {
     justify-content: center;
 }
 
+.grid {
+    margin: 1rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
 .socialmedia {
-    float: right;
+    margin: 1rem;
     padding: 0;
 }
