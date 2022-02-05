@@ -29,6 +29,7 @@ h1 {
 
 nav .list {
     margin: 2rem;
+    color: rgb(21, 139, 74);
     display: grid;
     grid-template-columns: 10rem 10rem 10rem;
     justify-content: center;
