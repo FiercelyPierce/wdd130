@@ -3,6 +3,7 @@
 /* Activity 1 Styles */
 .content1 {
     display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   .red1 {
     width: 100%;
