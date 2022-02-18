@@ -2,67 +2,71 @@
     margin: 0;
     padding: 0;
     font-family: 'Mochiy Pop P One', cursive, sans-serif;
-
 }
 
 body {
     background-color: rgb(58, 122, 106);
     font-size: 14px;
     line-height: normal;
+    margin: 0 auto;
+    max-width: 960px;
+    box-sizing: border-box;
 }
 
 header,
 footer {
     background-color: rgb(146, 99, 38);
+    display: grid;
 }
 
 main {
-    margin:  1rem;
+    display: grid;
 }
 
 h1 {
     color: rgb(24, 24, 151);
-    align-items: center;
-    display: inline;
-    box-shadow: 10px 10px 5px rgb(58, 58, 58);
 }
 
-nav .list {
+nav {
     margin: 2rem;
     color: rgb(21, 139, 74);
-    display: grid;
-    grid-template-columns: 10rem 10rem 10rem;
-    justify-content: center;
-}
-
-h2,
-p,
-figcaption {
-    color: rgb(225, 240, 255);
+    display: flex;
+    text-decoration: none;
 }
 
 
 /* Class Selectors */
 
 .logo {
+    align-items: center;
     margin: 1rem;
-    box-shadow: 10px 10px 5px rgb(58, 58, 58);
 }
 
-.page {
-    margin: 0 auto;
-    max-width: 960px;
-    align-items: center;
-    display: grid;
-    justify-content: center;
+.hero {
+    padding: 10px;
 }
 
-.grid {
-    margin: 1rem;
-    align-items: center;
+.content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
+    color: rgb(225, 240, 255)
+}
+
+.discription1 {
+    grid-column: 1/2;
+}
+
+.discription2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.first_image {
+    grid-column: 2/3;
+}
+
+.second_image {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 .socialmedia {
