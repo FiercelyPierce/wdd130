@@ -7,8 +7,8 @@
 body {
     font-size: 16px;
     font-family: 'Mochiy Pop P One', cursive, sans-serif;
-    color: white;
-    background-color: black;
+    color: rgb(64, 78, 77);
+    background-color: rgb(163, 124, 64);
 }
 
 h1 {
@@ -16,11 +16,11 @@ h1 {
 }
 
 h3 {
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 0;
 }
 
 header {
-    background-color: rgb(200, 3, 3);
+    background-color: rgb(141, 8, 1);
     display: grid;
     color: black;
 }
@@ -35,10 +35,20 @@ nav {
     padding: 1rem;
 }
 
+a {
+    color: rgb(141, 8, 1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(254, 74, 33);
+}
+
 
 /* Class Selectors */
 
 .page {
     margin: 0 auto;
     max-width: 960px;
+    background-color: rgb(218, 226, 223);
 }
