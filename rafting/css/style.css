@@ -12,6 +12,10 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    display: grid;
+}
+
 header,
 footer {
     background-color: rgb(146, 99, 38);
@@ -28,6 +32,9 @@ main {
 
 h1 {
     color: rgb(24, 24, 151);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding: 3rem;
 }
 
 h2 {
@@ -41,13 +48,14 @@ h3 {
 
 nav {
     margin: 2rem;
-    display: flex;
+    display: block;
     text-align: center;
 	list-style: none;
+    grid-column: 2/3;
 }
 
 nav li {
-	flex: 1 1 auto;
+	flex: 1 1 100%;
 }
 
 nav a {
@@ -66,9 +74,14 @@ nav a:hover {
 /* Class Selectors */
 
 .logo {
-    align-items: center;
-    margin: 1rem;
-    justify-content: flex-start;
+    padding: 1rem;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.list {
+    display: flex;
+    color: rgb(146, 99, 38);
 }
 
 .hero {
