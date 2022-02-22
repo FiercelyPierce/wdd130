@@ -1,9 +1,44 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-size: 16px;
     font-family: 'Mochiy Pop P One', cursive, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+header {
+    background-color: rgb(200, 3, 3);
+    display: grid;
+    color: black;
+}
+
+main {
+    display: grid;
+    padding: 1rem;
+}
+
+nav {
+    display: block;
+    padding: 1rem;
+}
+
+
+/* Class Selectors */
+
+.page {
+    margin: 0 auto;
+    max-width: 960px;
 }
