@@ -102,16 +102,17 @@ nav a:hover {
 }
 
 .hero {
-    padding: 10px;
+    padding: 1rem 0rem;
 }
 
 .hero img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .content {
     display: grid;
-    color: #295135;
+    color: rgb(41, 81, 53);
 }
 
 .discription1 {
