@@ -60,7 +60,6 @@ nav {
     display: block;
     text-align: center;
     grid-column: 2/3;
-    padding: 1.5rem;
 }
 
 nav li {
