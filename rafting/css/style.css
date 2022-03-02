@@ -141,7 +141,7 @@ nav a:hover {
 
 .first_image img {
     width: 100%;
-    box-shadow: 5px 3px 2px rgb(152 71 62);
+    box-shadow: 5px 3px 2px;
     border-radius: 10px;
 }
 
@@ -153,7 +153,7 @@ nav a:hover {
 
 .second_image img {
     width: 100%;
-    box-shadow: -5px 3px 2px rgb(152 71 62);
+    box-shadow: -5px 3px 2px;
     border-radius: 10px;
 }
 
