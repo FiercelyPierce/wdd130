@@ -87,6 +87,11 @@ nav a:hover {
 
 /* Class Selectors */
 
+.header_format {
+    color: white;
+    text-shadow: 5px 2px rgb(8, 72, 135);
+}
+
 .logo {
     margin: 1rem;
     grid-column: 1/2;
@@ -113,8 +118,24 @@ nav a:hover {
 }
 
 .content {
+    color: rgb(41, 81, 53);
+}
+
+.river_content {
     display: grid;
     color: rgb(41, 81, 53);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.river_title {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(152, 71, 62);
+    border-radius: 10px;
+    text-shadow: 5px 2px rgb(8, 72, 135);
+    padding: 0.5rem;
 }
 
 .discription1 {
@@ -157,8 +178,113 @@ nav a:hover {
     border-radius: 10px;
 }
 
+.grid_columns {
+    background-color: white;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Calendar */
+ul {list-style-type: none;}
+
+/* Month header */
+.month {
+    grid-column: 1/4;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1rem;
+    width: 100%;
+    background: rgb(152, 71, 62);
+    text-align: center;
+}
+
+/* Month list */
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding: 1rem;
+}
+
+.month .prev:hover {
+  float: left;
+  padding: 1rem;
+  color: rgb(8, 72, 135);
+  background-color: rgb(221, 213, 208);
+  transition-duration: 0.5s;
+  text-shadow: none;
+  border-radius: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding: 1rem;
+}
+
+/* Next button */
+.month .next:hover {
+  float: right;
+  padding: 1rem;
+  color: rgb(8, 72, 135);
+  background-color: rgb(221, 213, 208);
+  transition-duration: 0.5s;
+  text-shadow: none;
+  border-radius: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  padding: 10px 0;
+  background-color:rgb(41, 81, 53);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+/* Days (1-31) */
+.days {
+    display: grid;
+    background: white;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.days li {
+    margin: 1rem;
+    padding: 0.5rem;
+    color: rgb(41, 81, 53);
+}
+
+/* Highlight the "current" day */
+.days li:hover {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: rgb(41, 81, 53);
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
 .final_message {
     grid-column: 1/3;
+    margin: 1rem 0rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rivers_final_message {
+    grid-column: 1/4;
     margin: 1rem 0rem;
     background-color: white;
     padding: 10px;
