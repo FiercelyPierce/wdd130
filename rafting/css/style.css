@@ -119,6 +119,7 @@ nav a:hover {
 
 .content {
     color: rgb(41, 81, 53);
+    display: grid;
 }
 
 .river_content {
@@ -201,52 +202,52 @@ ul {list-style-type: none;}
 /* Month list */
 
 .month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 /* Previous button inside month header */
 .month .prev {
-  float: left;
-  padding: 1rem;
+    float: left;
+    padding: 1rem;
 }
 
 .month .prev:hover {
-  float: left;
-  padding: 1rem;
-  color: rgb(8, 72, 135);
-  background-color: rgb(221, 213, 208);
-  transition-duration: 0.5s;
-  text-shadow: none;
-  border-radius: 10px;
+    float: left;
+    padding: 1rem;
+    color: rgb(8, 72, 135);
+    background-color: rgb(221, 213, 208);
+    transition-duration: 0.5s;
+    text-shadow: none;
+    border-radius: 10px;
 }
 
 /* Next button */
 .month .next {
-  float: right;
-  padding: 1rem;
+    float: right;
+    padding: 1rem;
 }
 
 /* Next button */
 .month .next:hover {
-  float: right;
-  padding: 1rem;
-  color: rgb(8, 72, 135);
-  background-color: rgb(221, 213, 208);
-  transition-duration: 0.5s;
-  text-shadow: none;
-  border-radius: 10px;
+    float: right;
+    padding: 1rem;
+    color: rgb(8, 72, 135);
+    background-color: rgb(221, 213, 208);
+    transition-duration: 0.5s;
+    text-shadow: none;
+    border-radius: 10px;
 }
 
 /* Weekdays (Mon-Sun) */
 .weekdays {
-  padding: 10px 0;
-  background-color:rgb(41, 81, 53);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
+    padding: 10px 0;
+    background-color:rgb(41, 81, 53);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
 }
 
 /* Days (1-31) */
