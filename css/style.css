@@ -9,9 +9,9 @@ body {
     font-family: 'Mochiy Pop P One', cursive, sans-serif;
 }
 
-h1 {
+/* h1 {
     padding: 1rem;
-}
+} */
 
 h3 {
     padding: 1rem 1rem 1rem 0;
@@ -21,6 +21,8 @@ header {
     background-color: rgb(141, 8, 1);
     display: grid;
     color: black;
+    justify-content: center;
+    padding: 1rem 0rem;
 }
 
 main {
