@@ -52,3 +52,11 @@ a:hover {
     max-width: 960px;
     background-color: rgb(163, 124, 64);
 }
+
+.imagery .card {
+    float: right;
+}
+
+.profile img {
+    float: right;
+}

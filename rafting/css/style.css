@@ -29,11 +29,6 @@ footer {
     border-radius: 10px 10px 0px 0px;
 }
 
-main {
-    display: grid;
-    margin: 1rem;
-}
-
 h1 {
     color: white;
     grid-column: 2/3;
@@ -53,6 +48,7 @@ h2 {
 
 h3 {
     color: white;
+    text-shadow: 5px 2px rgb(8, 72, 135);
     padding: 1rem;
 }
 
@@ -92,6 +88,11 @@ nav a:hover {
     text-shadow: 5px 2px rgb(8, 72, 135);
 }
 
+.spacing_format {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
 .logo {
     margin: 1rem;
     grid-column: 1/2;
@@ -110,7 +111,7 @@ nav a:hover {
 }
 
 .hero {
-    margin: 1rem -1rem;
+    margin: 1rem 0rem;
 }
 
 .hero img {
@@ -125,8 +126,6 @@ nav a:hover {
 .river_content {
     display: grid;
     color: rgb(41, 81, 53);
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .river_title {
@@ -142,8 +141,6 @@ nav a:hover {
 .discription1 {
     grid-column: 1/2;
     background-color: white;
-    margin: 1rem;
-    padding: 10px;
     border-radius: 10px;
 }
 
@@ -151,8 +148,6 @@ nav a:hover {
     grid-column: 2/3;
     grid-row: 2/3;
     background-color: white;
-    margin: 1rem;
-    padding: 10px;
     border-radius: 10px;
 }
 
@@ -181,9 +176,19 @@ nav a:hover {
 
 .grid_columns {
     background-color: white;
-    margin: 1rem;
-    padding: 10px;
     border-radius: 10px;
+}
+
+.grid_columns img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.grid_columns p {
+    font-size: small;
+    text-indent: 1rem;
 }
 
 /* Calendar */
@@ -243,7 +248,7 @@ ul {list-style-type: none;}
 
 /* Weekdays (Mon-Sun) */
 .weekdays {
-    padding: 10px 0;
+    padding: 1rem 0rem;
     background-color:rgb(41, 81, 53);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -255,8 +260,9 @@ ul {list-style-type: none;}
     display: grid;
     background: white;
     justify-items: center;
+    border-radius: 0px 0px 10px 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .days li {
@@ -275,20 +281,15 @@ ul {list-style-type: none;}
     transition-duration: 0.5s;
 }
 
-
 .final_message {
     grid-column: 1/3;
-    margin: 1rem 0rem;
     background-color: white;
-    padding: 10px;
     border-radius: 10px;
 }
 
 .rivers_final_message {
     grid-column: 1/4;
-    margin: 1rem 0rem;
     background-color: white;
-    padding: 10px;
     border-radius: 10px;
 }
 
