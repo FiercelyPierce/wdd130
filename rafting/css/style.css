@@ -67,21 +67,25 @@ nav a {
 	color: white;
     text-shadow: 5px 2px rgb(8, 72, 135);
 	padding: 1.2rem;
-    border-radius: 100px;
+    border-radius: 10px;
 	text-decoration: none;
 }
 
 nav a:hover {
-    color: rgb(8, 72, 135);
-	background-color: rgb(221, 213, 208);
-    transition-duration: 0.5s;
     padding: 1.2rem;
-    text-shadow: none;
-    border-radius: 10px;
 }
 
 
 /* Class Selectors */
+
+.buttons:hover {
+    color: rgb(8, 72, 135);
+	background-color: rgb(221, 213, 208);
+    transition-duration: 0.5s;
+    text-shadow: none;
+    border-radius: 10px;
+
+}
 
 .header_format {
     color: white;
@@ -135,7 +139,7 @@ nav a:hover {
     background-color: rgb(152, 71, 62);
     border-radius: 10px;
     text-shadow: 5px 2px rgb(8, 72, 135);
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .discription1 {
@@ -158,7 +162,6 @@ nav a:hover {
 
 .first_image img {
     width: 100%;
-    box-shadow: 5px 3px 2px;
     border-radius: 10px;
 }
 
@@ -170,7 +173,6 @@ nav a:hover {
 
 .second_image img {
     width: 100%;
-    box-shadow: -5px 3px 2px;
     border-radius: 10px;
 }
 
@@ -219,31 +221,10 @@ ul {list-style-type: none;}
     padding: 1rem;
 }
 
-.month .prev:hover {
-    float: left;
-    padding: 1rem;
-    color: rgb(8, 72, 135);
-    background-color: rgb(221, 213, 208);
-    transition-duration: 0.5s;
-    text-shadow: none;
-    border-radius: 10px;
-}
-
 /* Next button */
 .month .next {
     float: right;
     padding: 1rem;
-}
-
-/* Next button */
-.month .next:hover {
-    float: right;
-    padding: 1rem;
-    color: rgb(8, 72, 135);
-    background-color: rgb(221, 213, 208);
-    transition-duration: 0.5s;
-    text-shadow: none;
-    border-radius: 10px;
 }
 
 /* Weekdays (Mon-Sun) */
@@ -266,15 +247,13 @@ ul {list-style-type: none;}
 }
 
 .days li {
-    margin: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     color: rgb(41, 81, 53);
 }
 
 /* Highlight the "current" day */
 .days li:hover {
-    margin: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 10px;
     background: rgb(41, 81, 53);
     color: white;
