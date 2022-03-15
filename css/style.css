@@ -55,6 +55,7 @@ a:hover {
 
 .imagery .card {
     float: right;
+    border-radius: 12px;
 }
 
 .profile img {
