@@ -1,4 +1,17 @@
 form {
-    display: block;
-    margin: .4rem 0;
+    margin: 0 auto;
+    width: 400px;
+    padding: 25px;
+    background-color: darkslategrey;
+}
+
+label,
+input,
+textarea {
+    padding: 10px;
+    width: 200px;
+}
+
+.spacing_format {
+    margin: 20px;
 }
