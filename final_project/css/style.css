@@ -11,6 +11,7 @@ body {
 
 header {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 header,
@@ -24,18 +25,29 @@ footer {
 }
 
 nav {
-    display: block;
     text-align: center;
+    font-size: 1.5rem;
     background-color: rgb(141, 8, 1);
+    grid-column: 1/4;
+    margin: 1rem 0rem;
+}
+
+nav ul {
+    display: flex;
+	list-style: none;
+    align-items: center;
 }
 
 nav li {
 	flex: 1 1 100%;
+    background-color: rgb(218, 226, 223);
+    margin: 1rem;
 }
 
 nav a {
+    color: black;
 	display: block;
-	padding: 1rem;
+	padding: .5rem;
 	text-decoration: none;
 }
 
@@ -43,16 +55,37 @@ nav a {
 
 .page {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1060px;
     background-color: rgb(163, 123, 64);
 }
 
-.main_card img {
+.title_head {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1rem 1rem 1rem;
+    padding: 0.5rem;
+    background-color:  rgb(64, 78, 77);
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.display_cards {
+    display: flex;
+    justify-content: center;
+}
+
+.display_cards img {
     border-radius: 12px;
     max-width: 180px;
+    margin: 0.5rem;
 }
 
 .colors {
     border-radius: 100px;
-    max-width: 30px;
+    max-width: 20px;
+}
+
+.sample {
+    max-width: 70px;
+    border-radius: 100px;
 }
