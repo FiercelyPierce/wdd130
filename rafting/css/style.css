@@ -77,6 +77,11 @@ nav a:hover {
 
 /* Class Selectors */
 
+.buttons {
+    transition-duration: 0.5s;
+    margin: 0.25rem;
+}
+
 .buttons:hover {
     color: rgb(8, 72, 135);
 	background-color: rgb(221, 213, 208);
@@ -247,13 +252,14 @@ ul {list-style-type: none;}
 
 .days li {
     padding: 1rem;
+    border-radius: 10px;
     color: rgb(41, 81, 53);
+    transition-duration: 0.5s;
 }
 
 /* Highlight the "current" day */
 .days li:hover {
     padding: 1rem;
-    border-radius: 10px;
     background: rgb(41, 81, 53);
     color: white;
     transition-duration: 0.5s;
@@ -279,17 +285,12 @@ ul {list-style-type: none;}
 
 .socialmedia img {
     width: 3rem;
-    height: 3rem;
-    background-color: none;
+    transition-duration: 0.5s;
+    background-color: rgb(221, 213, 208);
+    border-radius: 100%;
 }
 
 .socialmedia img:hover {
-    display: flex;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
     padding: 0.3rem;
     transition-duration: 0.5s;
-    background-color: rgb(221, 213, 208);
-    border-radius: 100px;
 }
