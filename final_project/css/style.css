@@ -52,6 +52,17 @@ nav a {
     transition-duration: 0.5s;
 }
 
+table,
+th,
+td,
+tr {
+    border: solid black;
+    border-collapse: collapse;
+    background-color: rgb(218, 226, 223);
+    padding: 1rem;
+    margin: 1rem;
+}
+
 /* Class Selectors */
 
 .page {
