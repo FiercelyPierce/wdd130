@@ -20,15 +20,9 @@ footer {
 }
 
 footer {
-    display: flex;
     background-color: rgb(141, 8, 1);
     justify-content: end;
     padding: 0.5rem;
-}
-
-footer img {
-    max-width: 40px;
-    border-radius: 100px;
 }
 
 nav {
@@ -108,4 +102,16 @@ nav a {
 .logo img:hover {
     transform: rotate(3turn);
     transition-duration: 10s;
+}
+
+.supporting_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.supporting_media img {
+    max-width: 40px;
+    border-radius: 100px;
 }
