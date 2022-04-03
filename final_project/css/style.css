@@ -123,6 +123,5 @@ tr {
 }
 
 .supporting_media img {
-    max-width: 40px;
-    border-radius: 100px;
+    max-width: 90px;
 }
