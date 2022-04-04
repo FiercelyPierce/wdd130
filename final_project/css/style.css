@@ -42,12 +42,14 @@ nav li {
 	flex: 1 1 100%;
     background-color: rgb(218, 226, 223);
     margin: 1rem;
+    border-radius: 12px;
 }
 
 nav a {
     color: black;
 	display: block;
 	padding: .5rem;
+    border-radius: 12px;
 	text-decoration: none;
     transition-duration: 0.5s;
 }
@@ -81,6 +83,7 @@ tr {
     transition-duration: 0.5s;
     background-color:rgb(64, 78, 77);
     color:rgb(218, 226, 223);
+    border-radius: 12px;
 }
 
 .display_cards {
@@ -92,6 +95,41 @@ tr {
     border-radius: 12px;
     max-width: 180px;
     margin: 0.5rem;
+    box-shadow: 0 0 8px;
+    transition-duration: 0.5s;
+}
+
+.display_cards img:hover {
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+}
+
+.content_spacing {
+    margin: 1rem 100px 1rem 100px;
+    text-align: center;
+}
+
+.explanation {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 100px 1fr 1fr 100px;
+}
+
+.explanation h2, p{
+    grid-column: 2/3;
+}
+
+.example {
+    grid-column: 3/4;
+}
+
+.cards_example {
+    position: relative;
+}
+
+.card_1 {
+    position: absolute;
+    z-index: 0;
 }
 
 .colors {
@@ -124,4 +162,9 @@ tr {
 
 .supporting_media img {
     max-width: 90px;
+    transition-duration: 0.5s;
+}
+.supporting_media img:hover {
+    filter: drop-shadow(0 0 8px);
+    transition-duration: 0.5s;
 }
