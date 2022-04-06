@@ -90,6 +90,7 @@ input {
     width: 30%;
 }
 
+
 /* Class Selectors */
 
 .page {
@@ -121,6 +122,17 @@ input {
     border-top-right-radius: 12px;
     grid-column: 1/2;
     background-color: rgb(218, 226, 223);
+}
+
+.sidenav li {
+    transition-duration: 0.5s;
+    list-style: upper-roman;
+    padding-bottom: 0.5rem;
+}
+
+.sidenav li:hover {
+    transform: translateX(20px);
+    color: rgb(141, 8, 1);
 }
 
 .links a:hover {
@@ -179,6 +191,18 @@ input {
     margin-bottom: 3rem;
     padding: 1rem;
     background-color: rgb(218, 226, 223);
+}
+
+.tricks p {
+    text-indent: 1rem;
+    margin-bottom: 3rem;
+}
+
+.signin {
+    margin-bottom: 3rem;
+    grid-column: 2/4;
+    background-color: rgb(218, 226, 223);
+    border-radius: 12px;
 }
 
 .example {
@@ -283,7 +307,7 @@ input {
 
 .logo img:hover {
     transform: rotate(3turn);
-    transition-duration: 10s;
+    transition-duration: 7s;
 }
 
 .supporting_media {
