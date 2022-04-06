@@ -6,12 +6,11 @@
 
 body {
     font-family: 'Teko', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 header {
     display: grid;
-    margin-bottom: 3rem;
 }
 
 header,
@@ -20,20 +19,24 @@ footer {
 }
 
 footer {
+    color: rgb(218, 226, 223);
     background-color: rgb(141, 8, 1);
     justify-content: end;
     padding: 0.5rem;
     border-top: solid;
+    border-color: black;
 }
 
 main {
     display: grid;
-    grid-template-columns: 100px 1fr 1fr 100px;
+    padding-top: 3rem;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    background-image: url('https://i.pinimg.com/originals/ab/8b/29/ab8b29d163462214b27b18bafbc77f97.jpg');
+    background-size: cover;
 }
 
 nav {
     text-align: center;
-    font-size: 1.5rem;
     background-color: rgb(141, 8, 1);
     border-bottom: solid;
 }
@@ -55,6 +58,7 @@ nav a {
     color: black;
 	display: block;
 	padding: .5rem;
+    border: inset;
     border-radius: 12px;
 	text-decoration: none;
     transition-duration: 0.5s;
@@ -70,8 +74,6 @@ caption {
     background-color: rgb(218, 226, 223);
     padding: 0.5rem;
     grid-column: 2/4;
-    border-radius: 12px;
-    font-size: 1.5rem;
     margin-bottom: 3rem;
 }
 
@@ -80,7 +82,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 input {
@@ -92,8 +94,6 @@ input {
 
 .page {
     margin: 0 auto;
-    background-image: url('https://i.pinimg.com/originals/ab/8b/29/ab8b29d163462214b27b18bafbc77f97.jpg');
-    background-size: cover;
 }
 
 .title_head {
@@ -112,6 +112,17 @@ input {
     grid-column: 2/4;
 }
 
+.sidenav {
+    margin-right: 1rem;
+    padding: 2rem;
+    border: solid;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 12px;
+    grid-column: 1/2;
+    background-color: rgb(218, 226, 223);
+}
+
 .links a:hover {
     transition-duration: 0.5s;
     background-color:rgb(64, 78, 77);
@@ -121,10 +132,14 @@ input {
 }
 
 .search_cards {
-    background-color: rgb(218, 226, 223);
+    background-color: rgb(64, 78, 77);
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: rgb(218, 226, 223);
+    border-color: black;
 }
 
 .display_cards {
@@ -150,7 +165,6 @@ input {
     margin-bottom: 3rem;
     padding: 1rem;
     text-align: center;
-    font-size: 1.5rem;
     background-color: rgb(218, 226, 223);
 }
 
@@ -159,7 +173,12 @@ input {
     background-color: rgb(218, 226, 223);
     justify-content: center;
     padding: 1rem;
-    font-size: 1.25rem;
+}
+
+.tricks {
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background-color: rgb(218, 226, 223);
 }
 
 .example {
@@ -174,6 +193,12 @@ input {
     transform: scale(1.15);
     transition-duration: 0.5s;
     z-index: 5;
+}
+
+.tbl_head th {
+    color: rgb(218, 226, 223);
+    background-color: rgb(141, 8, 1);
+    border-color: black;
 }
 
 .card_1 {
@@ -230,7 +255,7 @@ input {
 
 .call_to_action span {
     width: 200px;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     justify-self: center;
     padding: 1rem;
     transition-duration: 0.5s;
@@ -239,16 +264,10 @@ input {
 .call_to_action a {
     text-decoration: none;
     border-radius: 12px;
-    color: black;
+    color: rgb(141, 8, 1);
     padding: 0.5rem 2rem;
     border-style: outset;
     transition-duration: 0.5s;
-}
-
-
-.colors {
-    border-radius: 100px;
-    max-width: 20px;
 }
 
 .logo {
